@@ -11,20 +11,72 @@
         <h1>Generative AI Impact Assessment</h1>
         <p>Please answer the following questions to assess the impact of your AI system:</p>
         
-        <!-- Start of the Assessment Questions -->
-        <form id="assessment-form">
-            <!-- Example Question -->
-            <label for="question1">Does your AI system ensure user privacy?</label>
-            <select id="question1" name="question1">
+        <!-- Privacy Assessment Questions -->
+        <h2>Area of Impact: Privacy</h2>
+        <form id="privacy-assessment">
+            <label for="collects-data">Does your AI system collect personal or sensitive data?</label>
+            <select id="collects-data" name="collects-data">
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
-                <option value="unsure">Unsure</option>
             </select>
-            
-            <!-- Add more questions as needed -->
-            <!-- ... -->
-            
-            <button type="submit">Submit Assessment</button>
+
+            <label for="privacy-policy">Is there a clear privacy policy in place that outlines data usage and user rights?</label>
+            <select id="privacy-policy" name="privacy-policy">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="user-consent">Are users informed about the data collection and provided with options to opt out?</label>
+            <select id="user-consent" name="user-consent">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="data-encryption">Are data encryption and other security measures implemented to protect user data?</label>
+            <select id="data-encryption" name="data-encryption">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="data-access">Is there a process for users to access, correct, or delete their data?</label>
+            <select id="data-access" name="data-access">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </form>
+
+        <!-- Safety Assessment Questions -->
+        <h2>Area of Impact: Safety</h2>
+        <form id="safety-assessment">
+            <label for="physical-harm">Does your AI system have the potential to physically harm individuals?</label>
+            <select id="physical-harm" name="physical-harm">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="unsafe-situations">Can the decisions made by your AI system indirectly lead to unsafe situations?</label>
+            <select id="unsafe-situations" name="unsafe-situations">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="safety-design">Are safety considerations integrated into the design and operation of your AI system?</label>
+            <select id="safety-design" name="safety-design">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="risk-mitigation">Is there a process for identifying and mitigating potential safety risks associated with your AI system?</label>
+            <select id="risk-mitigation" name="risk-mitigation">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="safety-instructions">Are users or operators provided with adequate safety instructions and warnings?</label>
+            <select id="safety-instructions" name="safety-instructions">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
         </form>
     </div>
 
